@@ -1,0 +1,36 @@
+.button {
+  height: 2.3rem;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: var(--mantine-radius-md);
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Primary */
+.primary {
+  background-color: var(--mantine-color-primary-filled);
+  color: white;
+  border-color: var(--mantine-color-primary-filled);
+}
+
+.primary:hover {
+  background-color: var(--mantine-color-primary-hover);
+}
+
+/* Secondary */
+.secondary {
+  background-color: transparent;
+  color: var(--mantine-color-primary-filled);
+  border-color: var(--mantine-color-primary-filled);
+}
+
+.secondary:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}

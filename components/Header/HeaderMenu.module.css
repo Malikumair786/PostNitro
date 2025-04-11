@@ -1,0 +1,142 @@
+.header {
+  background-color: var(--mantine-color-body);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.innerLeft {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  font-size: var(--mantine-font-size-md);
+  font-weight: bold;
+}
+
+.linkLabel {
+  margin-right: 0.5rem;
+}
+
+.link:hover {
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0.1rem;
+  margin: 0;
+}
+
+.flag {
+  border-radius: 4px;
+  padding: 4px;
+  background-color: rgb(241, 241, 241);
+}
+
+.flagItem {
+  border-radius: 4px;
+  background-color: rgb(241, 241, 241);
+}
+
+.menuItems {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 6rem;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0.1rem;
+}
+
+.flagTemplate{
+  width: 42px;
+  height: 32px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 4px;
+}
+
+
+.drawerBody {
+  padding: 0;
+}
+
+.drawerScroll {
+  padding: 1rem;
+}
+
+.drawerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.drawerSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawerParent {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.drawerChildren {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.drawerChild {
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.drawerFooter {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}

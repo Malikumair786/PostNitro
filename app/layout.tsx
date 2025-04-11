@@ -6,10 +6,12 @@ import {
   mantineHtmlProps,
 } from "@mantine/core";
 import { theme } from "../theme";
+import ReduxProvider from "../redux/provider";
+import HeaderMenu from "../components/Header/HeaderMenu";
 
 export const metadata = {
-  title: "Mantine Next.js template",
-  description: "I am using Mantine with Next.js!",
+  title: "PostNitro: Free AI Carousel Generator",
+  description: "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
 };
 
 export default function RootLayout({ children }: { children: any }) {
@@ -24,7 +26,12 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <ReduxProvider>
+          <MantineProvider theme={theme}>
+            <HeaderMenu/>
+            {children}
+            </MantineProvider>
+        </ReduxProvider>
       </body>
     </html>
   );

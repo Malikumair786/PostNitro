@@ -1,0 +1,118 @@
+.wrapper {
+  position: relative;
+  background-image: url(/grid-box.svg);
+  background-size: 150%;
+  background-position: center;
+  padding: 5vw 20vw 5vw 20vw;
+
+}
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 15vw 5vw 15vw 5vw;
+    background-size: 600%;
+  }
+}
+
+.badgeParent{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.badge::before {
+  width: 10px;
+  height: 10px;
+}
+
+.badge{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: small;
+  text-transform: none;
+  font-size: 0.875rem;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+  color: var(--mantine-color-black);
+  margin-bottom: var(--mantine-spacing-xs);
+  text-align: center;
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+
+  @media (max-width: mantine-breakpoint-xs) {
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+.highlight {
+  color: var(--mantine-color-primary-4);
+}
+
+.description {
+  text-align: center;
+  color: var(--mantine-color-gray);
+
+
+  @media (max-width: mantine-breakpoint-xs) {
+    font-size: var(--mantine-font-size-md);
+    text-align: left;
+  }
+}
+
+.controls {
+  margin-top: calc(var(--mantine-spacing-xl) * 1.5);
+  display: flex;
+  justify-content: center;
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+
+  @media (max-width: mantine-breakpoint-xs) {
+    flex-direction: column;
+  }
+}
+
+.control {
+  height: 50px;
+  font-size: var(--mantine-font-size-lg);
+  background-color: var(--mantine-primary-color-filled);
+
+  &:not(:first-of-type) {
+    margin-left: var(--mantine-spacing-md);
+  }
+
+  @media (max-width: mantine-breakpoint-xs) {
+    &:not(:first-of-type) {
+      margin-top: var(--mantine-spacing-md);
+      margin-left: 0;
+    }
+  }
+}
+
+.creditCard {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center;     /* Center align vertically (if needed) */
+  margin-top: 1rem;
+}
+
+.checkmark {
+  margin-right: 10px; /* Add space between the ✓ and the text */
+}
+
+.secondaryControl {
+  color: var(--mantine-color-white);
+  background-color: rgba(255, 255, 255, 0.4);
+}
