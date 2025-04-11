@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./plans.module.css";
 import PlanCard from "../../components/Cards/Plan/page";
 import { useMediaQuery } from '@mantine/hooks';
+import FreePlan from "./FreePlan";
 
 
 const plans = [
@@ -56,6 +57,7 @@ const YearlyPlans = () => {
           <PlanCard key={index} {...plan} />
         ))}
       </div>
+      <FreePlan/>
     </>
   );
 };

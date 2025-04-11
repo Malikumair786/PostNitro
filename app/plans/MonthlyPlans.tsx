@@ -2,6 +2,7 @@ import React from "react";
 import PlanCard from "../../components/Cards/Plan/page";
 import { useMantineTheme } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
+import FreePlan from "./FreePlan";
 
 const plans = [
   {
@@ -39,11 +40,14 @@ const MonthlyPlans = () => {
   const theme = useMantineTheme();
   const isSmallScreen = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   return (
-    <div style={{ display: "flex", flexDirection: isSmallScreen ? "column" : "row", justifyContent: "center", padding: "2rem 0", gap: "1rem" }}>
-      {plans.map((plan, index) => (
-        <PlanCard key={index} {...plan} />
-      ))}
-    </div>
+    <>
+      <div style={{ display: "flex", flexDirection: isSmallScreen ? "column" : "row", justifyContent: "center", padding: "2rem 0", gap: "1rem" }}>
+        {plans.map((plan, index) => (
+          <PlanCard key={index} {...plan} />
+        ))}
+      </div>
+      <FreePlan />
+    </>
   );
 };
 

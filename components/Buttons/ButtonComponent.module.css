@@ -21,7 +21,8 @@
 }
 
 .primary:hover {
-  background-color: var(--mantine-color-primary-hover);
+  background-color: var(--mantine-color-primary-filled);
+  color: white;
 }
 
 /* Secondary */
@@ -32,5 +33,5 @@
 }
 
 .secondary:hover {
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: transparent;
 }
