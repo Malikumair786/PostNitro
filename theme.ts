@@ -4,7 +4,7 @@ import { createTheme } from "@mantine/core";
 
 const colors = {
   primary: '#087A68',
-  secondary: '#f0a500',
+  secondary: '#e7e3e3',
   background: '#f4f7fa',
   text: '#333333',
 };

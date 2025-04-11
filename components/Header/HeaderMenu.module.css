@@ -1,5 +1,8 @@
 .header {
   background-color: var(--mantine-color-body);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {

@@ -1,0 +1,86 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 var(--mantine-color-secondary-filled); 
+  padding: 1rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.soloPreneur{
+  border: 2px solid var(--mantine-color-primary-filled);
+  border-radius: 10px;
+  box-shadow: 10px 10px 0 var(--mantine-color-primary-filled); 
+  padding: 1rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--mantine-color-primary-filled);
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.saving {
+  color: var(--mantine-color-primary-filled);
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.previousPrice {
+  margin: 0.5rem 0;
+  color: rgb(250, 128, 128);
+  text-decoration: line-through;
+}
+
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+.listIcon {
+  color: var(--mantine-color-primary-filled);
+}
+
+.benefits li {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005ac1;
+}
+
+.footer {
+  font-size: 0.75rem;
+  margin-top: auto;
+  font-style: italic;
+}

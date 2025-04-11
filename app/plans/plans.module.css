@@ -1,0 +1,102 @@
+.wrapper {
+  position: relative;
+  background-image: url(/grid-box.svg);
+  background-size: 150%;
+  background-position: center;
+  padding: 5vw 20vw 5vw 20vw;
+}
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 15vw 5vw 15vw 5vw;
+    background-size: 600%;
+  }
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+}
+.inner > * {
+  margin: 2rem 0rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: -1px;
+  color: var(--mantine-color-black);
+  text-align: center;
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+
+  @media (max-width: mantine-breakpoint-xs) {
+    font-size: 28px;
+    text-align: left;
+  }
+}
+
+.description {
+  text-align: center;
+  color: var(--mantine-color-gray);
+
+
+  @media (max-width: mantine-breakpoint-xs) {
+    font-size: var(--mantine-font-size-md);
+    text-align: left;
+  }
+}
+
+
+.badgeParent{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.badge::before {
+  width: 10px;
+  height: 10px;
+}
+
+.badge{
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  font-size: small;
+  font-size: 0.875rem;
+  background-color: var(--mantine-color-primary-filled);
+  color: white; /* if needed */
+}
+.tabs {
+  width: 100%;
+}
+.tabListWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tabList {
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+  padding: 6px 4px;
+  display: flex;
+  gap: 1rem;
+}
+
+.tab {
+  background-color: var(--mantine-color-white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+
+.tabActive {
+  background-color: red !important;
+  font-weight: 600;
+  color: var(--mantine-color-primary-filled);
+}
