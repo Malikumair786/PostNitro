@@ -3,6 +3,7 @@ import { Badge, Container, Overlay, Text, Title } from "@mantine/core";
 import classes from "./page.module.css";
 import ButtonComponent from "../components/Buttons/buttons";
 import { IconArrowRight } from "@tabler/icons-react";
+import VisualElements from "../components/VisualElements/VisualElements";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
               minutes.
             </Text>
           </Container>
+          <VisualElements />
           <div className={classes.controls}>
             <ButtonComponent variant="primary">
               Start Creating Free Carousels <IconArrowRight />
