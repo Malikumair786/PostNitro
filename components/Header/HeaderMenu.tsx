@@ -40,7 +40,7 @@ export default function HeaderMenu() {
       ],
     },
     {
-      link: "free-ai-tools",
+      link: "#",
       label: t("freeTools"),
       links: [
         { link: "/free-ai-tool/twitter-free-banner-header-image-maker", label: t("twitterBanner") },
@@ -101,7 +101,6 @@ export default function HeaderMenu() {
       );
     }
 
-    // If no dropdown, render as a single link (also external-aware)
     return isExternal(link.link) ? (
       <a key={link.label} href={link.link} className={classes.link} >
         {link.label}

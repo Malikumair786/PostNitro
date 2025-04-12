@@ -13,7 +13,6 @@
   gap: 0.5rem;
 }
 
-/* Primary */
 .primary {
   background-color: var(--mantine-color-primary-filled);
   color: white;
@@ -25,7 +24,6 @@
   color: white;
 }
 
-/* Secondary */
 .secondary {
   background-color: transparent;
   color: var(--mantine-color-primary-filled);
