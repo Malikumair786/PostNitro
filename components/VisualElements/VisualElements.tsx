@@ -2,8 +2,11 @@ import { Rating, Text } from "@mantine/core";
 import Image from "next/image";
 import React from "react";
 import classes from "./VisualElements.module.css";
+import { useTranslations } from "next-intl";
 
 const VisualElements = () => {
+  const t = useTranslations('VisualElements');
+
   return (
     <div className={classes.container}>
       <div className={classes.section}>
@@ -18,7 +21,7 @@ const VisualElements = () => {
             <Rating defaultValue={5} />
             <div className={classes.ratingValue}>5.0</div>
           </div>
-          <Text c="dimmed" className={classes.subText}>Join 32,000+ Creators</Text>
+          <Text c="dimmed" className={classes.subText}>{t('joinCreators')}</Text>
         </div>
       </div>
 
@@ -26,8 +29,8 @@ const VisualElements = () => {
 
       <div className={classes.section}>
         <div className={classes.secondTextBlock}>
-          <Text className={classes.ratingValue}>Embedded Into</Text>
-          <Text c="dimmed" className={classes.subText}>40+ SMM Platforms</Text>
+          <Text className={classes.ratingValue}>{t('embeddedInto')}</Text>
+          <Text c="dimmed" className={classes.subText}>{t('platforms')}</Text>
         </div>
         <Image
           src={"/embed-collected.png"}

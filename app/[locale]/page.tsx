@@ -1,11 +1,14 @@
 import React from "react";
 import { Badge, Container, Overlay, Text, Title } from "@mantine/core";
 import classes from "./page.module.css";
-import ButtonComponent from "../components/Buttons/buttons";
+import ButtonComponent from "../../components/Buttons/buttons";
 import { IconArrowRight } from "@tabler/icons-react";
-import VisualElements from "../components/VisualElements/VisualElements";
+import VisualElements from "../../components/VisualElements/VisualElements";
+import { getTranslations } from "next-intl/server";
 
-const HomePage = () => {
+export async function HomePage() {
+  const t = await getTranslations("HomePage");
+
   return (
     <>
       <div className={classes.wrapper}>
@@ -13,35 +16,43 @@ const HomePage = () => {
 
         <div className={classes.badgeParent}>
           <Badge className={classes.badge} variant="dot">
-            AI-Powered Carousel Generator for Viral Content
+            {t("badge")}
           </Badge>
         </div>
         <div className={classes.inner}>
-          <Title className={classes.title}>
-            AI-Powered Carousel Generator for Instagram, LinkedIn & More
-          </Title>
+          <Title className={classes.title}>{t("heading")}</Title>
           <Container>
             <Text c="dimmed" size="md" className={classes.description}>
-              PostNitro's AI-powered platform creates stunning carousels for
-              Instagram, LinkedIn, TikTok, and more. Boost your social media
-              engagement with customizable, brand-aligned content generated in
-              minutes.
+              {t("description")}
             </Text>
           </Container>
           <VisualElements />
           <div className={classes.controls}>
             <ButtonComponent variant="primary">
-              Start Creating Free Carousels <IconArrowRight />
+              {t("startCarouselBtn")} <IconArrowRight />
             </ButtonComponent>
           </div>
           <Text c="dimmed" size="sm" className={classes.creditCard}>
-            <span className={classes.checkmark}>✓</span> No Credit Card Required
-            | Free Downloads Every Month
+            <span className={classes.checkmark}>✓</span> {t("creditcardtxt")}
           </Text>
         </div>
       </div>
     </>
   );
-};
+}
 
 export default HomePage;
+
+// import { getTranslations } from 'next-intl/server';
+// import VisualElements from '../../components/VisualElements/VisualElements';
+
+// export default async function Home() {
+//   const t = await getTranslations('HomePage');
+
+//   return (
+//     <div>
+//       <h1>{t('text')}</h1>
+//       <VisualElements />
+//     </div>
+//   );
+// }

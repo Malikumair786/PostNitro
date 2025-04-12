@@ -2,14 +2,18 @@ import { Card, Group, List, Text } from "@mantine/core";
 import React from "react";
 import classes from "./plans.module.css";
 import { IconBolt, IconCircleCheck } from "@tabler/icons-react";
-import ButtonComponent from "../../components/Buttons/buttons";
+import ButtonComponent from "../../../components/Buttons/buttons";
+import { useTranslations } from "next-intl";
 
 const benefits = ["Access to GPT 4o-Mini", "5 downloads per month", "Access to basic templates"];
 const FreePlan = () => {
+  const t = useTranslations("planPage");
+
+  // additionalLimitText
   return (
     <div>
       <Text className={classes.freePlanText} c="dimmed">
-        If you require additional limits, you can <span className={classes.addOns}>add them as Add-Ons</span> to your subscription.
+        {t("additionalLimitText")}<span className={classes.addOns}>{t("addOnsText")}</span>{t("subscriptionText")}
       </Text>
 
       <Card shadow="md" padding="lg" radius="md" withBorder className={classes.card}>

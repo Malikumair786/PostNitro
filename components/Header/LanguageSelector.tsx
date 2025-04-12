@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
@@ -5,6 +7,9 @@ import { Button, Menu } from "@mantine/core";
 import Image from "next/image";
 import { setLanguage } from "../../redux/languageSlice";
 import classes from "./HeaderMenu.module.css";
+
+import { useRouter, usePathname } from "../../i18n/routing";
+import { Locale } from "../../i18n/routing";
 
 const languageOptions = [
   { code: "GB-UKM - United Kingdom", label: "English", value: "en" },
@@ -20,6 +25,9 @@ const LanguageSelector = () => {
   const [isHydrated, setIsHydrated] = useState(false);
   const dispatch = useDispatch();
 
+  const router = useRouter();
+  const pathname = usePathname();
+
   useEffect(() => {
     setIsHydrated(true);
 
@@ -29,20 +37,23 @@ const LanguageSelector = () => {
   }, [dispatch, selectedLanguage]);
 
   if (!isHydrated) {
-    return (
-      <div className={classes.flagTemplate }/>
-    );
+    return <div className={classes.flagTemplate} />;
   }
 
   const handleLanguageChange = (lang: (typeof languageOptions)[0]) => {
-    dispatch(setLanguage(lang.value));
+    const locale = lang.value as Locale;
+
+    dispatch(setLanguage(locale));
+
+    // ✅ Use next-intl's locale routing to replace current route with new locale
+    router.replace(pathname, { locale });
   };
 
   return (
     <div>
       <Menu withArrow position="bottom-start">
         {selectedLanguage && (
-          <Menu.Target >
+          <Menu.Target>
             <Button variant="transparent" className={classes.button}>
               <Image
                 src={`/flags/${

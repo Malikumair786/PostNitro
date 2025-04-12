@@ -1,0 +1,82 @@
+{
+    "VisualElements": {
+      "joinCreators": "JÚnase a 32,000+ creadores",
+      "embeddedInto": "Integrado en",
+      "platforms": "40+ Plataformas SMM"
+    },
+    "HomePage": {
+    "badge": "Generador de carruseles con IA para contenido viral",
+    "heading": "Generador de carruseles con tecnología de IA para Instagram, LinkedIn y más",
+    "description": "La plataforma de PostNitro, impulsada por IA, crea carruseles impactantes para Instagram, LinkedIn, TikTok y más. Impulsa tu interacción en redes sociales con contenido personalizable y alineado con tu marca, generado en minutos.",
+    "startCarouselBtn": "Empieza a crear carruseles gratuitos",
+    "creditcardtxt": "No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
+  },
+  "planPage":{
+    "heading": "Planes para sus necesidades de creación de carruseles",
+    "descripiton": "Desde creadores individuales hasta agencias, tenemos un plan que se adapta a sus necesidades.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "yearlyPlanBadgeText": "¡40% de descuento en la suscripción anual! - ANNUAL40OFF",
+    "additionalLimitText": "Si necesita límites adicionales, puede",
+    "addOnsText": " agregarlos como complementos ",
+    "subscriptionText": "a su suscripción."
+  },
+  "HeaderMenu": {
+    "gettingStarted": "Empezando",
+    "products": "Productos",
+    "freeTools": "Herramientas gratuitas",
+    "plans": "Planes",
+
+    "Docs": "Documentos",
+    "Blog": "Blog",
+    "Affiliate": "Affiliados",
+
+    "linkedinCarousel": "Generador de carrusel de LinkedIn",
+    "instagramCarousel": "Generador de carruseles de Instagram",
+    "tiktokCarousel": "Generador de carruseles de TikTok",
+    "xTwitterCarousel": "Generador de carruseles de TikTok",
+    "embed": "Empotrar",
+    "extension": "Extensión de Chrome",
+
+    "twitterBanner": "Creador de banners y encabezados de Twitter",
+    "linkedinBanner": "Creador de banners y encabezados de LinkedIn",
+    "instagramGrid": "Creador de cuadrículas y divisor de imágenes para Instagram",
+    "linkedinFormatter": "Formateador de texto de LinkedIn",
+    "linkedinPostGen": "Generador de publicaciones de LinkedIn",
+
+    "createImagePost": "Crear publicación de imagen",
+    "createCarousel": "Crear carrusel"
+  },
+  "plans": [
+    {
+      "planName": "Starter Plan",
+      "pricing": "$10/month",
+      "description": "Perfect for getting started.",
+      "benefits": ["Watermark-free exports", "Access to basic AI models (GPT-4o, Claude Haiku)", "30 downloads/month", "8 AI Generated Slides per Carousel"],
+      "buttonText": "Get Started"
+    },
+    {
+      "planName": "SOLOPRENEUR PLAN",
+      "pricing": "$20/month",
+      "description": "Perfect for solo creators.",
+      "benefits": [
+        "Watermark-free exports",
+        "Access to advanced AI models (GPT-4, Claude Sonnet)",
+        "15 AI Generated Slides per Carousel",
+        "Unlimited downloads",
+        "Access to all templates",
+        "Custom color palettes",
+        "Create custom templates"
+      ],
+      "buttonText": "Get Started"
+    },
+    {
+      "planName": "Team Plan",
+      "pricing": "$50/month",
+      "description": "Perfect for small teams.",
+      "benefits": ["100 AI generated images per month", "Up to 5 workspaces", "Up to 20 slides per carousel", "15 custom templates"],
+      "buttonText": "Get Started"
+    }
+  ]
+  }
+  

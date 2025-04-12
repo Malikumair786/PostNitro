@@ -4,18 +4,22 @@ import React, { useState } from "react";
 import classes from "./plans.module.css";
 import MonthlyPlans from "./MonthlyPlans";
 import YearlyPlans from "./YearlyPlans";
+import { useTranslations } from "next-intl";
 
 const page = () => {
   const [activeTab, setActiveTab] = useState<"monthly" | "yearly">("monthly");
+  const t = useTranslations("planPage");
+
   return (
     <div className={classes.wrapper}>
       <Overlay opacity={0} zIndex={0} />
 
       <div className={classes.inner}>
-        <Title className={classes.title}>Plans for Your Carousel Creation Needs</Title>
+        <Title className={classes.title}>{t("heading")}</Title>
         <Text c="dimmed" size="md" className={classes.description}>
-          From solo creators to agencies, we have a plan that fits your requirements.
+          {t("descripiton")}
         </Text>
+
         <Tabs
           value={activeTab}
           onChange={(value) => setActiveTab(value as "monthly" | "yearly")}
@@ -27,8 +31,8 @@ const page = () => {
         >
           <div className={classes.tabListWrapper}>
             <Tabs.List>
-              <Tabs.Tab value="monthly">Monthly</Tabs.Tab>
-              <Tabs.Tab value="yearly">Yearly</Tabs.Tab>
+              <Tabs.Tab value="monthly">{t("monthly")}</Tabs.Tab>
+              <Tabs.Tab value="yearly">{t("yearly")}</Tabs.Tab>
             </Tabs.List>
           </div>
 
