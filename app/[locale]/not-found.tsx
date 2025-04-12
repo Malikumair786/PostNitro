@@ -3,10 +3,9 @@ import { Button, Container, Image, SimpleGrid, Text, Title } from '@mantine/core
 import classes from './NotFoundImage.module.css';
 import { useRouter } from 'next/navigation';
 
-export default function NotFoundImage() {
+export default function NotFound() {
   const router = useRouter();
-  
-  
+
   return (
     <Container className={classes.root}>
       <SimpleGrid spacing={{ base: 40, sm: 80 }} cols={{ base: 1, sm: 2 }}>
