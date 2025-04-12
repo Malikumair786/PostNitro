@@ -42,17 +42,3 @@ export async function HomePage() {
 }
 
 export default HomePage;
-
-// import { getTranslations } from 'next-intl/server';
-// import VisualElements from '../../components/VisualElements/VisualElements';
-
-// export default async function Home() {
-//   const t = await getTranslations('HomePage');
-
-//   return (
-//     <div>
-//       <h1>{t('text')}</h1>
-//       <VisualElements />
-//     </div>
-//   );
-// }

@@ -45,7 +45,6 @@ const LanguageSelector = () => {
 
     dispatch(setLanguage(locale));
 
-    // ✅ Use next-intl's locale routing to replace current route with new locale
     router.replace(pathname, { locale });
   };
 

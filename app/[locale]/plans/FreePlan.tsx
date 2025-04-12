@@ -8,8 +8,6 @@ import { useTranslations } from "next-intl";
 const benefits = ["Access to GPT 4o-Mini", "5 downloads per month", "Access to basic templates"];
 const FreePlan = () => {
   const t = useTranslations("planPage");
-
-  // additionalLimitText
   return (
     <div>
       <Text className={classes.freePlanText} c="dimmed">
