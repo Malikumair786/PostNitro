@@ -1,46 +1,46 @@
 {
   "HeaderMenu": {
-    "gettingStarted": "Getting Started",
-    "products": "Products",
-    "freeTools": "Free Tools",
-    "plans": "Plans",
+    "gettingStarted": "入门",
+    "products": "产品",
+    "freeTools": "免费工具",
+    "plans": "计划",
 
-    "Docs": "Docs",
-    "Blog": "Blog",
-    "Affiliate": "Affiliate",
+    "Docs": "文档",
+    "Blog": "博客",
+    "Affiliate": "附属机构",
 
-    "linkedinCarousel": "LinkedIn Carousel Generator",
-    "instagramCarousel": "Instagram Carousel Generator",
-    "tiktokCarousel": "TikTok Carousel Generator",
-    "xTwitterCarousel": "X (Twitter) Carousel Add Generator",
-    "embed": "Embed",
-    "extension": "Chrome Extension",
+    "linkedinCarousel": "LinkedIn 轮播生成器",
+    "instagramCarousel": "Instagram 轮播生成器",
+    "tiktokCarousel": "TikTok 轮播生成器",
+    "xTwitterCarousel": "X（Twitter）轮播添加生成器",
+    "embed": "嵌入",
+    "extension": "Chrome 扩展程序",
 
-    "twitterBanner": "Twitter Banner & Header Maker",
-    "linkedinBanner": "LinkedIn Banner & Header Maker",
-    "instagramGrid": "Instagram Grid Makers & Image Splitter",
-    "linkedinFormatter": "LinkedIn Text Formatter",
-    "linkedinPostGen": "LinkedIn Post generator",
+    "twitterBanner": "Twitter 横幅和标题制作器",
+    "linkedinBanner": "LinkedIn 横幅和标题制作器",
+    "instagramGrid": "Instagram 网格制作器和图片分割器",
+    "linkedinFormatter": "LinkedIn 文本格式化程序",
+    "linkedinPostGen": "LinkedIn 帖子生成器",
 
-    "createImagePost": "Create Image post",
-    "createCarousel": "Create carousel"
+    "createImagePost": "创建图片帖子",
+    "createCarousel": "创建轮播"
   },
   "HomePage": {
-    "badge": "AI-Powered Carousel Generator for Viral Content",
-    "heading": "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
-    "description": "PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with           customizable, brand-aligned content generated in minutes.",
-    "startCarouselBtn": "Start Creating Free Carousels",
-    "creditcardtxt": "No Credit Card Required | Free Downloads Every Month"
+    "badge": "人工智能驱动的病毒式内容轮播生成器",
+    "heading": "适用于 Instagram、LinkedIn 等平台的 AI 驱动轮播生成器",
+    "description": "PostNitro 的 AI 平台可为 Instagram、LinkedIn、TikTok 等平台创建精美的轮播图。几分钟内即可生成可定制、与品牌一致的内容，提升您的社交媒体参与度。",
+    "startCarouselBtn": "开始创建免费轮播",
+    "creditcardtxt": "无需信用卡 | 每月免费下载"
   },
   "planPage":{
-    "heading": "Plans for Your Carousel Creation Needs",
-    "descripiton": "From solo creators to agencies, we have a plan that fits your requirements.",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "yearlyPlanBadgeText": "40% Off On Yearly Subscription! - ANNUAL40OFF",
-    "additionalLimitText": "If you require additional limits, you can ",
-    "addOnsText": "add them as Add-Ons ",
-    "subscriptionText": "to your subscription."
+    "heading": "满足您的轮播创建需求的计划",
+    "descripiton": "从个人创作者到代理机构，我们都有适合您要求的计划。",
+    "monthly": "每月",
+    "yearly": "每年",
+    "yearlyPlanBadgeText": "年度订阅享 40% 折扣！- ANNUAL40OFF",
+    "additionalLimitText": "如果您需要额外的限制，您可以 ",
+    "addOnsText": "将它们添加为附加组件 ",
+    "subscriptionText": "到您的订阅。"
   },
   "plans": [
     {
@@ -74,8 +74,8 @@
     }
   ],
   "VisualElements": {
-    "joinCreators": "Join 32,000+ Creators",
-    "embeddedInto": "Embedded Into",
-    "platforms": "40+ SMM Platforms"
+    "joinCreators": "加入 32,000+ 位创作者",
+    "embeddedInto": "嵌入到",
+    "platforms": "40多个SMM平台"
   }
 }

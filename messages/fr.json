@@ -1,46 +1,45 @@
 {
   "HeaderMenu": {
-    "gettingStarted": "Getting Started",
-    "products": "Products",
-    "freeTools": "Free Tools",
-    "plans": "Plans",
+    "gettingStarted": "Commencer",
+    "products": "Produits",
+    "freeTools": "Outils gratuits",
+    "plans": "Forfaits",
 
-    "Docs": "Docs",
-    "Blog": "Blog",
-    "Affiliate": "Affiliate",
+    "Docs": "Documents",
+    "Blog": "Blogocs",
+    "Affiliate": "Filiale",
 
-    "linkedinCarousel": "LinkedIn Carousel Generator",
-    "instagramCarousel": "Instagram Carousel Generator",
-    "tiktokCarousel": "TikTok Carousel Generator",
-    "xTwitterCarousel": "X (Twitter) Carousel Add Generator",
-    "embed": "Embed",
-    "extension": "Chrome Extension",
+    "linkedinCarousel": "Générateur de carrousel LinkedIn",
+    "instagramCarousel": "Générateur de carrousel Instagram",
+    "tiktokCarousel": "Générateur de carrousel TikTok",
+    "xTwitterCarousel": "Générateur d'ajouts de carrousel X (Twitter)",
+    "embed": "Intégrer",
+    "extension": "Extension Chrome",
 
-    "twitterBanner": "Twitter Banner & Header Maker",
-    "linkedinBanner": "LinkedIn Banner & Header Maker",
-    "instagramGrid": "Instagram Grid Makers & Image Splitter",
+    "twitterBanner": "Créateur de bannières et d'en-têtes Twitter",
+    "linkedinBanner": "Créateur de bannières et d'en-têtes LinkedIn",
+    "instagramGrid": "Créateurs de grilles et séparateurs d'images Instagram",
     "linkedinFormatter": "LinkedIn Text Formatter",
-    "linkedinPostGen": "LinkedIn Post generator",
+    "linkedinPostGen": "Générateur de publications LinkedIn",
 
-    "createImagePost": "Create Image post",
-    "createCarousel": "Create carousel"
+    "createImagePost": "Créer une publication d'image",
+    "createCarousel": "Créer un carrousel"
   },
   "HomePage": {
-    "badge": "AI-Powered Carousel Generator for Viral Content",
-    "heading": "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
-    "description": "PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with           customizable, brand-aligned content generated in minutes.",
-    "startCarouselBtn": "Start Creating Free Carousels",
-    "creditcardtxt": "No Credit Card Required | Free Downloads Every Month"
+    "badge": "Générateur de carrousel alimenté par l'IA pour le contenu viral",
+    "heading": "Générateur de carrousel optimisé par l'IA pour Instagram, LinkedIn et plus encore", "description": "La plateforme d'IA de PostNitro crée de superbes carrousels pour Instagram, LinkedIn, TikTok et plus encore. Boostez votre engagement sur les réseaux sociaux avec du contenu personnalisable et personnalisé, généré en quelques minutes.",
+    "startCarouselBtn": "Commencez à créer des carrousels gratuits",
+    "creditcardtxt": "Aucune carte de crédit requise | Téléchargements gratuits chaque mois"
   },
   "planPage":{
-    "heading": "Plans for Your Carousel Creation Needs",
-    "descripiton": "From solo creators to agencies, we have a plan that fits your requirements.",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "yearlyPlanBadgeText": "40% Off On Yearly Subscription! - ANNUAL40OFF",
-    "additionalLimitText": "If you require additional limits, you can ",
-    "addOnsText": "add them as Add-Ons ",
-    "subscriptionText": "to your subscription."
+    "heading": "Plans pour vos besoins de création de carrousel",
+    "descripiton": "Des créateurs solo aux agences, nous avons un plan adapté à vos besoins.",
+    "monthly": "Mensuelle",
+    "yearly": "Annuelle",
+    "yearlyPlanBadgeText": "40 % de réduction sur l'abonnement annuel ! - ANNUAL40OFF",
+    "additionalLimitText": "Si vous avez besoin de limites supplémentaires, vous pouvez",
+    "addOnsText": "ajoutez-les en tant que modules complémentaires ",
+    "subscriptionText": "à votre abonnement."
   },
   "plans": [
     {
@@ -74,8 +73,8 @@
     }
   ],
   "VisualElements": {
-    "joinCreators": "Join 32,000+ Creators",
-    "embeddedInto": "Embedded Into",
-    "platforms": "40+ SMM Platforms"
+    "joinCreators": "Rejoignez plus de 32 000 créateurs",
+    "embeddedInto": "Intégré dans",
+    "platforms": "Plus de 40 plateformes SMM"
   }
 }
