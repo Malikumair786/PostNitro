@@ -1,13 +1,14 @@
+"use client";
 import React from "react";
 import { Badge, Container, Overlay, Text, Title } from "@mantine/core";
 import classes from "./page.module.css";
 import ButtonComponent from "../../components/Buttons/buttons";
 import { IconArrowRight } from "@tabler/icons-react";
 import VisualElements from "../../components/VisualElements/VisualElements";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-export async function HomePage() {
-  const t = await getTranslations("HomePage");
+const Page = ()=> {
+  const t = useTranslations("HomePage");
 
   return (
     <>
@@ -41,4 +42,4 @@ export async function HomePage() {
   );
 }
 
-export default HomePage;
+export default Page;
