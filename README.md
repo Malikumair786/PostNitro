@@ -9,9 +9,10 @@ We've already added the following packages:
 - [Phosphor Icons](https://phosphoricons.com/): v2.1.7
 
 ## Getting Started
-
-1. Click on the "Use as template" button and create a new repository
-2. Clone the project
+1. Clone the project
+```sh
+git clone https://github.com/Malikumair786/PostNitro.git
+```
 3. Run commands:
 ```sh
 npm install
